@@ -1,0 +1,149 @@
+
+nav div{
+  margin: 0 4vmax ;
+  top: 0;
+}
+#navbarTogglerDemo02 li :hover{
+  color: blue;
+  text-shadow: 0 5px 10px rgb(10, 23, 122);
+}
+#footer{
+  text-align: center;
+  color: black;
+  padding-left: 4%;
+  padding-bottom: 4%;
+  padding-right: 4%;
+  padding-top: 2%;
+  height: 30%;
+  width: 100%;
+  bottom: 0;
+  background-image: linear-gradient( rgb(119, 237, 198),rgb(9, 165, 113));
+}
+
+#footer li a{
+  text-decoration: none;
+  color: black;
+  margin: 10px;
+  
+}
+#footer ul{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card{
+  margin: 3vmax;
+  box-shadow: 0px 0px 10px gray;
+  max-width: 40vw;
+  max-height: 70vh;
+}
+.card-img-top:hover{
+  transform: scale(1.1,1.1) ;
+  box-shadow: 0 0 8px black;
+  transition: 0.6s ease-in-out;
+}
+.card-img-top{
+  max-width: 40vw;
+  max-height: 40vh;
+}
+#content{
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+  flex-wrap: wrap;
+}
+.blog{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 60%;
+  margin: 4%;
+}
+.blog img{
+  max-width: 46vw;
+  max-height: 50vh;
+}
+#arrow a,i{
+  text-decoration: none;
+  color: #000;
+}
+
+#arrow{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2vmax;
+  background-color: rgb(194, 194, 194);
+  backdrop-filter: blur(50px);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 92%;
+  align-content: flex-end;
+  position:relative;
+}
+#arrow :hover{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2vmax;
+  background-color: rgb(0, 0, 0);
+  backdrop-filter: blur(50px);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  align-content: flex-end;
+}
+#arrow i:hover{
+  color: white;
+}
+#about1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#about{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2vmax;
+  margin: 2vmax;
+  box-shadow: 0px 0px 10px black;
+  width:50%;
+}
+
+.inputbox{
+  box-shadow: 0px 0px 10px gray;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 4vmax;
+  width:40%;
+  height:50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn{
+  margin: 10px;
+  width:20vmax;
+  height: 15vmax;
+  font-size:30px;
+}
+.home{
+
+  padding: 6vmax;
+}
+.btn img{
+  border-radius: 50%;
+  width: 10vmax;
+  height: 10vmax;
+}
